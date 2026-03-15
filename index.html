@@ -2,589 +2,453 @@
 <html lang="en">
 
 <head>
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Manish Kumar From India</title>
-
-  <!-- 
-    - favicon
-  -->
-  <link rel="shortcut icon" href="./favicon.svg" type="image/svg+xml">
-
-  <!-- 
-    - custom css link
-  -->
-  <link rel="stylesheet" href="./assets/css/style.css">
-
-  <!-- 
-    - google font link
-  -->
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link
-    href="https://fonts.googleapis.com/css2?family=Barlow:wght@600;700&family=Open+Sans:wght@400;500;700&family=Poppins:wght@400;600&display=swap"
-    rel="stylesheet">
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Manish Kumar — Software Engineer | Full Stack Developer | Java Enthusiast</title>
+  <meta name="description"
+    content="Ashar Iftikhar — creative web developer building fast, modern websites and automations. See projects, skills and contact." />
+  <meta name="theme-color" content="#0d1117" />
+  <link rel="icon"
+    href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3E%3Ctext y='0.9em' font-size='90'%3E🔷%3C/text%3E%3C/svg%3E" />
+  <link rel="stylesheet" href="assets/css/styles.css" />
 </head>
 
-<body id="top">
+<body>
 
-  <!-- 
-    - #HEADER
-  -->
+  <!-- NAV -->
+  <header>
+    <div class="container nav" role="navigation" aria-label="Main nav">
 
-  <header class="header" data-header>
-    <div class="container">
+      <div class="brand">
+        <div class="logo" aria-hidden="true">MK</div>
 
-      <!-- <a href="#">
-        <h1 class="logo">Manish Kumar</h1>
-      </a> -->
+        <div>
+          <div class="name">Manish Kumar</div>
+          <div style="font-size: 12px; color: var(--muted)">
+            Software Engineer & Full Stack Developer
+          </div>
+        </div>
+      </div>
 
-        <h2 class="signature">ManishKumar</h2>
-      <!-- </a> -->
-      
+      <nav style="position: relative">
+        <div class="hamburger" id="hamburger" aria-hidden="true">☰</div>
 
-      <button class="nav-toggle-btn" aria-label="Toggle Menu" data-nav-toggle-btn>
-        <ion-icon name="menu-outline" class="menu-icon"></ion-icon>
-        <ion-icon name="close-outline" class="close-icon"></ion-icon>
-      </button>
+        <div class="links" id="navLinks">
+          <a href="#hero">Home</a>
+          <a href="#about">About</a>
+          <a href="#skills">Skills</a>
+          <a href="#projects">Projects</a>
+          <a href="#contact">Contact</a>
+          <a class="cta" href="#contact" style="margin-left: 8px">Hire Me</a>
+        </div>
 
-      <nav class="navbar container">
-        <ul class="navbar-list">
-
-          <li>
-            <a href="#home" class="navbar-link" data-nav-link>Home</a>
-          </li>
-
-          <li>
-            <a href="#about" class="navbar-link" data-nav-link>About</a>
-          </li>
-
-          <li>
-            <a href="#portfolio" class="navbar-link" data-nav-link>Projects</a>
-          </li>
-
-          <li>
-            <a href="#academics" class="navbar-link" data-nav-link>Academic</a>
-          </li>
-
-          <li>
-            <a href="#skills" class="navbar-link" data-nav-link>Skills</a>
-          </li>
-
-          <li>
-            <a href="#contact" class="navbar-link" data-nav-link>Contact</a>
-          </li>
-
-
-          <li>
-            <a href="Manish_Kumar_Resume.pdf" class="btn btn-primary" target="_blank">Download CV</a>
-          </li>
-          
-
-        </ul>
       </nav>
 
     </div>
   </header>
 
 
+  <!-- HERO -->
   <main>
-    <article>
+    <section id="hero" class="hero container" aria-labelledby="intro-title">
+      <div class="hero-grid">
 
-     <!-- 
-    - #HERO
--->
+        <!-- LEFT CONTENT -->
+        <div>
 
-<section class="hero" id="home">
-  <div class="container">
+          <div class="eyebrow">Software Engineer Portfolio</div>
 
-    <div class="hero-banner">
-      <img src="./assets/images/Hero-banner.png" width="800" height="864" loading="lazy" alt="Manish Kumar's Photo" class="img-cover">
+          <h1 class="hero-title" id="intro-title">
+            Building scalable and impactful software for real-world problems
+          </h1>
 
-      <div class="elem elem-1">
-        <p class="elem-title">500+</p>
-        <p class="elem-text">Coding Problems Solved</p>
-      </div>
-
-      <div class="elem elem-2">
-        <p class="elem-title">20+</p>
-        <p class="elem-text">Projects Completed</p>
-      </div>
-
-      <div class="elem elem-3">
-        <ion-icon name="rocket"></ion-icon>
-      </div>
-      
-      
-      <img src="./assets/images/rotate-img.png" width="169" height="172" alt="I'm a Developer from India" class="rotate-img">
-    </div>
-
-    <div class="hero-content">
-      <h2 class="hero-title">
-        <h2>
-          <span>Hello, I'm</span>
-          <strong>Manish Kumar</strong>a Frontend Developer and Java enthusiast.
-        </h2>
-        
-        <p class="hero-text">
-          Innovative frontend developer with a love for crafting user-friendly interfaces and a deep appreciation for Java. I thrive on building seamless experiences and leveraging modern technologies to bring ideas to life.
-        </p>
-        
-
-      <div class="btn-group">
-        <a href="#contact" class="btn btn-primary blue">Get in Touch</a>
-        <a href="#about" class="btn">About Me</a>
-      </div>
-
-    </div>
-
-  </div>
-</section>
-
-
-
-
-
-
-      <!-- 
-        - #ABOUT
-      -->
-
-      <section class="section about" id="about">
-        <div class="container">
-
-          <figure class="about-banner">
-
-            <img src="./assets/images/about-banner.jpg" width="900" height="652" loading="lazy" alt="Ethan's Photo"
-              class="img-cover">
-
-            <div class="abs-icon abs-icon-1">
-                    <ion-icon name="logo-css3"></ion-icon>
-            </div>
-
-            <div class="abs-icon abs-icon-2">
-              <ion-icon name="logo-javascript"></ion-icon>
-            </div>
-
-            <div class="abs-icon abs-icon-3">
-              <ion-icon name="logo-angular"></ion-icon>
-            </div>
-
-          </figure>
-
-          <div class="about-content">
-
-            <p class="section-subtitle">I'm an Aspiring Software Developer Engineer</p>
-          
-            <h2 class="h2 section-title">Creating Innovative Solutions</h2>
-          
-            <p class="section-text">
-              As a B.Tech student in Information Technology, I focus on crafting engaging web experiences. I’m skilled in frontend development and am expanding my expertise in C, Java, and data structures.
-            </p>
-          
-            <p class="section-text">
-              I’m also intrigued by Computer Networks, DBMS, and Operating Systems. Exploring these areas enhances my understanding and fuels my drive to build effective software solutions.
-            </p>
-          
-            <a href="#portfolio" class="btn btn-primary blue">Explore Projects</a>
-          
-          </div>
-          
-          
-
-        </div>
-      </section>
-
-
-
-
-
-     <!-- 
-    - #PROJECTS
-     -->
-
-      <section class="section portfolio" id="portfolio">
-        <div class="container">
-      
-          <p class="section-subtitle">Projects</p>
-          <h2 class="h2 section-title">My Amazing Works</h2>
-          <p class="section-text">
-            Here are some of the projects I’ve worked on. Click to view more details.
+          <p class="lead">
+            Entry Level Software Engineer passionate about developing clean, efficient and user-centric applications.
+            I enjoy solving problems, learning modern technologies and turning ideas into practical digital solutions.
+            <span class="typing" id="typing"></span>
           </p>
-      
-          <ul class="portfolio-list">
-            <li>
-              <a href="https://e-learning-tech-sphere.netlify.app/" target="_blank" class="portfolio-card" style="background-image: url('./assets/images/portfolio-1.jpg')">
-                <div class="card-content"> <br/>
-                  <h3 class="h3 card-title">E-Learning Fronted Template</h3>
-                  <span class="btn-link">
-                    <span>View Project</span>
-                    <ion-icon name="arrow-forward"></ion-icon>
-                  </span>
-                </div>
-              </a>
-            </li>
-            <li>
-              <a href="https://github.com/manishkmr49/Employee-Management-System" target="_blank" class="portfolio-card" style="background-image: url('./assets/images/portfolio-2.jpg')">
-                <div class="card-content">
-                  <h3 class="h3 card-title">Employee Management System</h3>
-                  <span class="btn-link">
-                    <span>View Project</span>
-                    <ion-icon name="arrow-forward"></ion-icon>
-                  </span>
-                </div>
-              </a>
-            </li>
-            <li>
-              <a href="https://manish-cpu-scheduling-simulator.netlify.app/" target="_blank" class="portfolio-card" style="background-image: url('./assets/images/portfolio-3.jpg')">
-                <div class="card-content"> <br/>
-                  <h3 class="h3 card-title">CPU Scheduling Simulator</h3>
-                  <span class="btn-link">
-                    <span>View Project</span>
-                    <ion-icon name="arrow-forward"></ion-icon>
-                  </span>
-                </div>
-              </a>
-            </li>
-            <li>
-              <a href="https://github.com/manishkmr49/Inventory-System" target="_blank" class="portfolio-card" style="background-image: url('./assets/images/portfolio-4.png')">
-                <div class="card-content">
-                  <h3 class="h3 card-title"> Inventory Management System </h3>
-                  <span class="btn-link">
-                    <span>View Project</span>
-                    <ion-icon name="arrow-forward"></ion-icon>
-                  </span>
-                </div>
-              </a>
-            </li>
-          </ul>
-          
-      
-        </div>
-      </section>
-      
-<!-- ACADEMICS SECTION -->
 
-<section id="academics">
-  <div style="display:block; align-items: center; align-content: center; justify-content: center; width: 100%; height: 100%;">
-    <div class="main">
-      <!-- Section Title -->
-      <p class="section-subtitle">Academic</p>
-      <h2 class="h2 section-title">My Academic Overview</h2> <br>
+          <div style="margin-top:18px; display:flex; gap:12px; flex-wrap:wrap;">
 
-      <!-- Education Cards -->
-      <ul class="cards">
-        <li class="cards_item">
-          <div class="card1">
-            <div class="card_image">
-              <img src="assets/images/college.png" alt="University" />
-              <span class="card_price"><span>2021 - 2025
-            </div>
-            <div class="card_content">
-              <h2 class="card_title">Bachelor of Technology</h2>
-              <div class="card_text">
-                <p>Pursuing my Bachelor of Technology in Information Technology
-                      presently in 4th year (8th SEM) in Asansol Engineering College, West Bengal.
-                </p>
-                <hr />
-                <p style="text-align: center;">
-                  I have an aggregate CGPA of 8.07 up to now.
-                </p>
-                <hr />
-                <p>During my B.Tech., I have learned <strong>C, Java, DSA, DBMS, Operating Systems, etc.</strong></p>
-              </div>
-            </div>
+            <!-- Hire -->
+            <a class="cta" href="#contact">
+              Hire Me
+            </a>
+
+            <!-- Resume -->
+            <a class="links" href="assets/resume/Manish_Kumar_Resume.pdf" download style="padding:8px 14px; border-radius:10px;
+             border:1px solid rgba(255,255,255,0.06); color:var(--muted);">
+              Download Resume
+            </a>
+
+            <!-- Projects -->
+            <a class="links" href="#projects" style="padding:8px 14px; border-radius:10px;
+             border:1px solid rgba(255,255,255,0.06); color:var(--muted);">
+              View Projects
+            </a>
+
           </div>
-        </li>
 
-        <li class="cards_item">
-          <div class="card1">
-            <div class="card_image">
-              <img src="assets/images/inter.png" alt="Intermediate" />
-              <span class="card_price"><span>2018 - 2020
-              </div>
-              <div class="card_content">
-                <h2 class="card_title">Intermediate</h2>
-                <div class="card_text">
-                  <p>I completed my Intermediate education in the Mathematics-Physics-Chemistry domain from Hare Ram Brahmachari High School Cum Inter College, Gangpur, Siwan.</p>
-                  <hr />
-                  <p>I achieved an aggregate of 71.80% in my Intermediate studies from the Bihar School Examination Board, Patna.</p>
-                  <hr />
-                  <p>My academic year for the 12th grade was 2019-2020.</p>
-                </div>
-              </div>
-              
-        </li>
-
-        <li class="cards_item">
-          <div class="card1">
-            <div class="card_image">
-              <img src="assets/images/school.png" alt="Schooling" />
-              <span class="card_price"><span>2017 - 2018
-              </div>
-              <div class="card_content">
-                <h2 class="card_title">Schooling</h2>
-                <div class="card_text">
-                  <p>I completed my schooling at Madhusudan High School, Chhitauli, Siwan.</p>
-                  <hr />
-                  <p>I completed my 10th standard with 64.20% from the Bihar School Examination Board, Patna.</p>
-                  <hr />
-                  <p>My academic year for the 10th grade was 2017-2018.</p>
-                </div>
-              </div>              
-          </div>
-        </li>
-      </ul>
-    </div>
-  </div>
-</section>
-<!-- ACADEMICS SECTION END -->
-
-      <!-- 
-        - #SKILLS
-      -->
-
-      <section class="section skills" id="skills">
-        <div class="container">
-
-          <p class="section-subtitle">My Skills</p>
-
-              <h2 class="h2 section-title">I Develop Skills Regularly</h2>
-
-        <p class="section-text">
-            I am committed to continuously enhancing my skills, staying updated with the latest technologies and best practices. Whether it's mastering new programming languages, frameworks, or honing my problem-solving abilities, I strive to grow as a developer every day.
-        </p>
-
-        <ul class="skills-list">
-
-          <li class="skills-item">
-            <div class="wrapper" style="width: 85%">
-              <h3 class="skills-title">Core Java</h3>
-              <data class="skills-data" value="85">85%</data>
-            </div>
-            <div class="skills-progress-box">
-              <div class="skills-progress" style="width: 85%"></div>
-            </div>
-          </li>
-        
-          <li class="skills-item">
-            <div class="wrapper" style="width: 75%">
-              <h3 class="skills-title">MySQL</h3>
-              <data class="skills-data" value="75">75%</data>
-            </div>
-            <div class="skills-progress-box">
-              <div class="skills-progress" style="width: 75%"></div>
-            </div>
-          </li>
-        
-          <li class="skills-item">
-            <div class="wrapper" style="width: 95%">
-              <h3 class="skills-title">HTML</h3>
-              <data class="skills-data" value="95">95%</data>
-            </div>
-            <div class="skills-progress-box">
-              <div class="skills-progress" style="width: 95%"></div>
-            </div>
-          </li>
-        
-          <li class="skills-item">
-            <div class="wrapper" style="width: 95%">
-              <h3 class="skills-title">CSS</h3>
-              <data class="skills-data" value="95">95%</data>
-            </div>
-            <div class="skills-progress-box">
-              <div class="skills-progress" style="width: 95%"></div>
-            </div>
-          </li>
-        
-          <li class="skills-item">
-            <div class="wrapper" style="width: 70%">
-              <h3 class="skills-title">JavaScript</h3>
-              <data class="skills-data" value="70">70%</data>
-            </div>
-            <div class="skills-progress-box">
-              <div class="skills-progress" style="width: 70%"></div>
-            </div>
-          </li>
-        
-          <li class="skills-item">
-            <div class="wrapper" style="width: 50%">
-              <h3 class="skills-title">React.js</h3>
-              <data class="skills-data" value="50">50%</data>
-            </div>
-            <div class="skills-progress-box">
-              <div class="skills-progress" style="width: 50%"></div>
-            </div>
-          </li>
-        
-          <li class="skills-item">
-            <div class="wrapper" style="width: 50%">
-              <h3 class="skills-title">Rest API</h3>
-              <data class="skills-data" value="50">50%</data>
-            </div>
-            <div class="skills-progress-box">
-              <div class="skills-progress" style="width: 50%"></div>
-            </div>
-          </li>
-        
-          <li class="skills-item">
-            <div class="wrapper" style="width: 60%">
-              <h3 class="skills-title">Problem Solving</h3>
-              <data class="skills-data" value="60">60%</data>
-            </div>
-            <div class="skills-progress-box">
-              <div class="skills-progress" style="width: 60%"></div>
-            </div>
-          </li>
-
-          <li class="skills-item">
-            <div class="wrapper" style="width: 60%">
-              <h3 class="skills-title">Java Swing</h3>
-              <data class="skills-data" value="60">60%</data>
-            </div>
-            <div class="skills-progress-box">
-              <div class="skills-progress" style="width: 60%"></div>
-            </div>
-          </li>
-        
-          <li class="skills-item">
-            <div class="wrapper" style="width: 45%">
-              <h3 class="skills-title">Spring Boot</h3>
-              <data class="skills-data" value="45">45%</data>
-            </div>
-            <div class="skills-progress-box">
-              <div class="skills-progress" style="width: 45%"></div>
-            </div>
-          </li>
-        </ul>
-        
         </div>
-      </section>
 
-<!-- 
-  - #CONTACT
--->
- 
-<section class="section contact" id="contact">
-  <div class="container">
-    <div class="contact-card">
-      <p class="card-subtitle">Don't be shy</p>
-      <h2 class="h2 section-title">Drop Me a Message</h2>
-      <div class="wrapper">
-        <!-- Contact Form -->
-        <form
-          action="https://formspree.io/f/mpwabyyj"
-          method="POST"
-          class="contact-form"
-        >
-          <label>
-            Your Name:
-            <input type="text" name="name" required class="contact-input">
-          </label>
-          <label>
-            Your Email:
-            <input type="email" name="email" required class="contact-input">
-          </label>
-          <label>
-            Your Message:
-            <textarea name="message" required class="contact-input"></textarea>
-          </label>
-          <button type="submit" class="btn-submit">Submit Message</button>
-        </form>
-        <!-- Contact Details -->
-        <ul class="contact-list">
-          <li class="contact-item">
-            <div class="contact-icon">
-              <ion-icon name="location"></ion-icon>
+        <!-- RIGHT CARD -->
+        <aside class="card" aria-label="profile">
+
+          <div class="avatar">
+            <img src="assets/images/manish.jpg" alt="Manish Kumar">
+          </div>
+
+          <h3 style="text-align:center; margin:8px 0;">Manish Kumar</h3>
+
+          <p style="text-align:center; color:var(--muted); margin:0;">
+            Software Engineer • Full Stack Developer
+          </p>
+
+          <div class="stat-row" aria-hidden="true">
+
+            <div class="stat">
+              <div class="num" data-target="25">0</div>
+              <div class="lbl">Projects</div>
             </div>
-            <div>
-              <h3 class="contact-item-title">Address</h3>
-              <address class="contact-item-link">Kolkata, West Bengal</address>
+
+            <div class="stat">
+              <div class="num" data-target="15">0</div>
+              <div class="lbl">Skills</div>
             </div>
-          </li>
-          <li class="contact-item">
-            <div class="contact-icon">
-              <ion-icon name="mail"></ion-icon>
+
+            <div class="stat">
+              <div class="num" data-target="350">0</div>
+              <div class="lbl">Problems Solved</div>
             </div>
-            <div>
-              <h3 class="contact-item-title">Email</h3>
-              <a href="mailto:manish19464@gmail.com" class="contact-item-link">manish19464@gmail.com</a>
-            </div>
-          </li>
-          <li class="contact-item">
-            <div class="contact-icon">
-              <ion-icon name="logo-linkedin"></ion-icon>
-            </div>
-            <div>
-              <h3 class="contact-item-title">LinkedIn</h3>
-              <a href="https://www.linkedin.com/in/manish-kumar-7b0535229/" class="contact-item-link">LinkedIn Profile</a>
-            </div>
-          <li class="contact-item">
-            <div class="contact-icon">
-              <ion-icon name="logo-twitter"></ion-icon>
-            </div>
-            <div>
-              <h3 class="contact-item-title">Twitter</h3>
-              <a href="https://twitter.com/manishkmr03" class="contact-item-link">Twitter Profile</a>
-            </div>
-          </li>
-        </ul>
+
+          </div>
+
+        </aside>
+
       </div>
-    </div>
-  </div>
-</section>
+    </section>
+  </main>
 
-
-  <!-- 
-    - #FOOTER
-  -->
-
-  <footer class="footer">
+  <!-- ABOUT -->
+  <section id="about" class="reveal">
     <div class="container">
 
-      <p class="copyright">
-        &copy; 2024 <a href="#" class="copyright-link">Manish Kumar</a>. All Rights Reseverd
+      <div class="section-title">About Me</div>
+
+      <p class="section-sub">
+        I am an aspiring Software Engineer with a strong interest in building scalable and real-world software
+        applications.
+        I enjoy solving complex problems and continuously improving my development skills through hands-on projects and
+        consistent learning.
       </p>
 
-      <ul class="footer-list">
-        <li>
-          <a href="#" class="footer-link">Terms & Condition</a>
-        </li>
+      <div class="card reveal" style="margin-top:18px; padding:20px">
 
-        <li>
-          <a href="#" class="footer-link">Privacy Policy</a>
-        </li>
-      </ul>
+        <p style="color:var(--muted); margin:0;">
+          I have experience in developing full stack web applications using modern technologies and writing clean,
+          efficient code.
+          With a solid foundation in Data Structures & Algorithms and software development fundamentals,
+          I am always eager to learn new technologies, collaborate with teams and contribute to impactful software
+          solutions.
+        </p>
+
+      </div>
 
     </div>
+  </section>
+
+  <!-- EXPERIENCE / INTERNSHIP -->
+  <section id="experience" class="reveal">
+    <div class="container">
+
+      <div class="section-title">Experience / Internship</div>
+
+      <p class="section-sub">
+        Industry exposure and hands-on experience in full stack development and database systems.
+      </p>
+
+
+      <!-- Experience 1 -->
+      <div class="card" style="margin-top:18px; padding:20px;">
+
+        <h3 style="margin:0;">MERN Stack Trainee</h3>
+
+        <p style="margin:4px 0; color:var(--muted);">
+          LTIMindtree • Kalinga, Bhubaneswar • Dec 2025 – Mar 2026
+        </p>
+
+        <p style="margin-top:12px; color:var(--muted);">
+          Gained hands-on experience in developing scalable full stack web applications using the MERN stack
+          (React.js, Node.js, Express.js and MongoDB). Designed and implemented RESTful APIs, integrated
+          frontend interfaces with backend services and applied secure JWT-based authentication.
+          Collaborated in an agile team environment to build efficient modules for data processing,
+          business logic implementation and performance optimization.
+        </p>
+
+      </div>
+
+
+
+      <!-- Experience 2 -->
+      <div class="card" style="margin-top:16px; padding:20px;">
+
+        <h3 style="margin:0;">SQL Intern</h3>
+
+        <p style="margin:4px 0; color:var(--muted);">
+          Celebal Technologies, Remote • May 2024 – July 2024
+        </p>
+
+        <p style="margin-top:12px; color:var(--muted);">
+          Gained practical experience in database development by writing optimized SQL queries
+          for efficient data retrieval and manipulation. Improved database performance using
+          indexing and query optimization techniques, and assisted in designing structured
+          relational database schemas for real-world application requirements.
+        </p>
+
+      </div>
+    </div>
+  </section>
+  <!-- SKILLS -->
+
+  <section id="skills" class="reveal">
+    <div class="container">
+
+      <div class="section-title">Technical Skills</div>
+
+      <p class="section-sub">
+        My technical stack focused on building efficient, scalable and real-world web applications.
+      </p>
+
+      <div class="skills-grid" style="margin-top:18px">
+
+        <div class="skill-pill">
+          <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/java/java-original.svg">
+          Java
+        </div>
+
+        <div class="skill-pill">
+          <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mysql/mysql-original.svg">
+          SQL / MySQL
+        </div>
+
+        <div class="skill-pill">
+          <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg">
+          JavaScript
+        </div>
+
+        <div class="skill-pill">
+          <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg">
+          React.js
+        </div>
+
+        <div class="skill-pill">
+          <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-original.svg">
+          Node.js
+        </div>
+
+        <div class="skill-pill">
+          <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/express/express-original.svg">
+          Express.js
+        </div>
+
+        <div class="skill-pill">
+          <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mongodb/mongodb-original.svg">
+          MongoDB
+        </div>
+
+        <div class="skill-pill">
+          <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg">
+          HTML5
+        </div>
+
+        <div class="skill-pill">
+          <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg">
+          CSS3
+        </div>
+
+        <div class="skill-pill">
+          <img src="https://www.vectorlogo.zone/logos/tailwindcss/tailwindcss-icon.svg">
+          Tailwind CSS
+        </div>
+
+        <div class="skill-pill">
+          <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg">
+          Git & GitHub
+        </div>
+
+        <div class="skill-pill">
+          <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/vscode/vscode-original.svg">
+          VS Code
+        </div>
+
+        <div class="skill-pill">
+          <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/eclipse/eclipse-original.svg">
+          Eclipse IDE
+        </div>
+
+        <div class="skill-pill">
+          ⚡ Data Structures & Algorithms
+        </div>
+
+        <div class="skill-pill">
+          🔗 REST APIs
+        </div>
+
+      </div>
+
+    </div>
+  </section>
+  <!-- PROJECTS -->
+  <section id="projects" class="reveal">
+    <div class="container">
+
+      <div class="section-title">Projects</div>
+
+      <p class="section-sub">
+        Real-world applications showcasing my full stack development experience.
+      </p>
+
+      <div class="projects-grid" style="margin-top:18px">
+
+        <!-- Project 1 -->
+        <article class="proj-card" tabindex="0">
+          <div class="proj-thumb" style="background-image:url('assets/images/greenGarden.png');">
+          </div>
+
+          <div class="proj-body">
+            <div class="proj-title">Green Garden MERN Application</div>
+
+            <div class="proj-desc">
+              A full stack MERN application with authentication, product management and modern UI.
+              Built scalable APIs and responsive frontend for real-world usage.
+            </div>
+
+            <div class="proj-actions">
+              <a class="btn-primary" href="#" target="_blank">Live</a>
+
+              <a class="btn-ghost" href="https://github.com/manishpxl/green-garden-mern" target="_blank">GitHub</a>
+            </div>
+          </div>
+        </article>
+
+
+        <!-- Project 2 -->
+        <article class="proj-card" tabindex="0">
+          <div class="proj-thumb" style="background-image:url('assets/images/elearning.png');">
+          </div>
+
+          <div class="proj-body">
+            <div class="proj-title">E-Learning Platform</div>
+
+            <div class="proj-desc">
+              Full stack learning platform with course browsing, quizzes and user interaction features.
+              Designed to provide an engaging and scalable learning experience.
+            </div>
+
+            <div class="proj-actions">
+              <a class="btn-primary" href="https://e-learning-tech-sphere.netlify.app/" target="_blank">Live</a>
+
+              <a class="btn-ghost" href="https://github.com/manishkmr49/E-Learning-Website" target="_blank">GitHub</a>
+            </div>
+          </div>
+        </article>
+
+
+        <!-- Project 3 -->
+        <article class="proj-card" tabindex="0">
+          <div class="proj-thumb" style="background-image:url('assets/images/inventory.png');">
+          </div>
+
+          <div class="proj-body">
+            <div class="proj-title">Inventory Management System</div>
+
+            <div class="proj-desc">
+              Backend focused system for managing product records, transactions and database operations.
+              Demonstrates strong understanding of Java and SQL fundamentals.
+            </div>
+
+            <div class="proj-actions">
+              <a class="btn-primary" href="#" target="_blank">Live</a>
+
+              <a class="btn-ghost" href="#" target="_blank">GitHub</a>
+            </div>
+          </div>
+        </article>
+
+      </div>
+
+    </div>
+  </section>
+  <!-- CONTACT -->
+  <section id="contact" class="reveal">
+    <div class="container">
+
+      <div class="section-title">Get In Touch</div>
+
+      <p class="section-sub">
+        Interested in working together or have an opportunity? Feel free to reach out.
+      </p>
+
+      <div class="contact-grid" style="margin-top:18px">
+
+        <div class="form-card card">
+          <form id="contactForm" name="contact" method="POST" data-netlify="true" netlify-honeypot="bot-field">
+
+            <input type="hidden" name="form-name" value="contact" />
+            <input type="hidden" name="bot-field" />
+
+            <input type="text" name="name" placeholder="Your Name" required />
+            <input type="email" name="email" placeholder="Your Email" required />
+            <input type="text" name="subject" placeholder="Subject" />
+            <textarea name="message" rows="5" placeholder="Your Message" required></textarea>
+
+            <button type="submit" id="submitBtn">Send Message</button>
+
+          </form>
+        </div>
+
+        <aside class="card" style="min-width:260px">
+
+          <h4 style="margin:0 0 10px;">Let’s Connect</h4>
+
+          <p class="note" style="margin:0 0 8px;">
+            📧 Email:
+            <a href="mailto:manish19464@gmail.com">
+              manish19464@gmail.com
+            </a>
+          </p>
+
+          <p class="note" style="margin:0 0 14px;">
+            📍 Location: Kolkata, West Bengal, India
+          </p>
+
+          <div style="display:flex; gap:8px; flex-wrap:wrap">
+
+            <a class="btn-ghost" href="https://github.com/manishpxl" target="_blank">GitHub</a>
+
+            <a class="btn-ghost" href="https://www.linkedin.com/in/manish-kumar-7b0535229/" target="_blank">LinkedIn</a>
+
+            <a class="btn-ghost" href="https://leetcode.com/u/manishpxl/" target="_blank">LeetCode</a>
+
+          </div>
+
+        </aside>
+
+      </div>
+
+    </div>
+  </section>
+
+  <footer>
+    <div class="container">
+      <div style="opacity:0.9; color:var(--muted);">
+        © <strong>Manish Kumar</strong> • Software Engineer Portfolio • 2026
+      </div>
+    </div>
   </footer>
+  </main>
 
-
-
-
-
-  <!-- 
-    - #BACK TO TOP
-  -->
-
-  <a href="#top" class="back-to-top" data-back-to-top>BACK TOP</a>
-
-
-
-
-
-  <!-- 
-    - custom js link
-  -->
-  <script src="./assets/js/script.js"></script>
-
-  <!-- 
-    - ionicon link
-  -->
-  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
-  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
-
+  <script src="assets/js/main.js"></script>
 </body>
 
 </html>

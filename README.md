@@ -1,47 +1,76 @@
-# Manish Kumar - Portfolio
+<div align="center">
 
-Welcome to my portfolio repository! This project showcases my skills and projects in web development using HTML, CSS, and JavaScript.
+# 👨‍💻 Manish Kumar — Software Engineer Portfolio
 
-## 🌐 Live Demo
-Check out my portfolio live at [Portfolio-Manish-Kumar](https://manishkmr49.github.io/Portfolio-Manish-Kumar).
+### A modern developer portfolio showcasing real-world full stack applications, problem solving skills and industry experience.
 
-## 🛠️ Tech Stack
+[🌐 Live Portfolio](#) •
+[💼 LinkedIn](https://www.linkedin.com/in/manish-kumar-7b0535229/) •
+[💻 GitHub](https://github.com/manishkmr49)
 
-- **Frontend**: HTML, CSS, JavaScript
-- **Design**: Responsive and modern UI/UX design
+</div>
 
-## 🚀 Features
+---
 
-- **Responsive Design**: Fully responsive layout that adapts to different screen sizes, providing an optimal viewing experience across devices.
-- **Project Showcase**: Highlighting my key projects with descriptions, technologies used, and links to live demos.
-- **About Me**: A section dedicated to my skills, education, and professional experiences.
-- **Contact**: Easy ways to get in touch with me through a contact form or direct links to my social profiles.
+## 🚀 About This Portfolio
 
-  ## 📸 Screenshots
-  
-    ![Portfolio Preview](https://github.com/user-attachments/assets/465896c5-2610-4319-939e-9beab0441560)
+This portfolio highlights my experience in building scalable web applications, working with databases, and solving real-world development challenges.
 
-## 📁 Project Structure
+It focuses on **projects, practical exposure and development mindset** rather than just listing technologies.
 
-- `index.html`: The main landing page of the portfolio.
-- `about.html`: A page about my background and skills.
-- `projects.html`: A showcase of my selected projects.
-- `contact.html`: A page with a contact form and my social links.
-- `assets/`: Contains images, stylesheets, and other static assets.
+---
 
-## 📚 Usage
+## 🛠 Tech Stack
 
-1. Clone the repository:
-   ```bash
-   git clone https://github.com/manishkmr49/Portfolio-Manish-Kumar.git
-2. Navigate to the project directory:
-   ```bash
-   cd Portfolio-Manish-Kumar
-3. Open `index.html` in your browser to view the portfolio.
+* **Languages:** JavaScript, Java, SQL
+* **Frontend:** React.js, HTML5, CSS3, Tailwind
+* **Backend:** Node.js, Express.js
+* **Database:** MongoDB, MySQL
+* **Concepts:** REST APIs, JWT Authentication, CRUD, MVC
+* **Tools:** Git, GitHub, VS Code, Eclipse
 
-## ✉️ Contact
-Feel free to reach out to me!
+---
 
-LinkedIn: Manish Kumar
-Twitter: @manishkmr03
-GitHub: @manishkmr49
+## 📂 Featured Projects
+
+### 🌿 Green Garden — MERN Stack Application
+
+Full stack application with authentication, CRUD operations and modern responsive UI.
+
+### 📚 E-Learning Platform
+
+Interactive learning platform with structured course pages and responsive design.
+
+### 📦 Inventory Management System
+
+Java + SQL based backend system for managing product records and database operations.
+
+---
+
+## 💼 Experience
+
+### MERN Stack Trainee — LTIMindtree
+
+Worked on developing full stack applications, building REST APIs and integrating frontend with backend services.
+
+### SQL Intern — Celebal Technologies
+
+Wrote optimized SQL queries and assisted in relational database design for real-world applications.
+
+---
+
+## 🎯 Objective
+
+To contribute as an entry-level Software Engineer by building efficient, scalable and impactful software solutions while continuously improving technical and problem-solving skills.
+
+---
+
+## 📫 Contact
+
+* Email: **[manish19464@gmail.com](mailto:manish19464@gmail.com)**
+* LinkedIn: https://www.linkedin.com/in/manish-kumar-7b0535229/
+* GitHub: https://github.com/manishkmr49
+
+---
+
+⭐ If you like this portfolio, feel free to connect or give feedback.
